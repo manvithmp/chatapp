@@ -1,0 +1,25 @@
+.emoji-input {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.emoji-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.emoji-picker {
+  max-height: 300px;
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}

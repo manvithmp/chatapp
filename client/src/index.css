@@ -1,0 +1,10 @@
+body { margin: 0; font-family: sans-serif; }
+.chat { padding: 1rem; background: #f0f0f0; color: #111; }
+.chat.dark { background: #111; color: #f0f0f0; }
+.chat-box { max-height: 400px; overflow-y: auto; margin: 1rem 0; }
+.msg { display: flex; gap: 1rem; align-items: center; }
+.msg.me { justify-content: flex-end; }
+.msg img { width: 30px; height: 30px; border-radius: 50%; }
+.input { display: flex; gap: 0.5rem; align-items: center; }
+.typing { font-style: italic; color: gray; }
+input, button { padding: 0.5rem; }
